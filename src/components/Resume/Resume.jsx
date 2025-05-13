@@ -25,13 +25,21 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // ];
 
 const experiences = [
+  // {
+  //   title: "Full Stack Developer, MERN,",
+  //   company: "Aiidl technology",
+  //   year: 'march, 2024 - present',
+  //   description: "I have been serving this company as a remote full-stack developer for approximately 1 year and 3 months . I was responsible for building user interfaces and REST APIs using React, Next.js, Node.js, Express, and MongoDB. Additionally, I have been working with technologies such as AWS, Docker, Redis, and Kafka."
+  // }
+
   {
-    title: "Full Stack Developer, MERN,",
-    company: "Aiidl technology",
-    year: 'march, 2024 - present',
-    description: "I have been serving this company as a remote full-stack developer for approximately 1 year and 3 months . I was responsible for building user interfaces and REST APIs using React, Next.js, Node.js, Express, and MongoDB. Additionally, I have been working with technologies such as AWS, Docker, Redis, and Kafka."
-  }
-]
+    title: "Full Stack Developer, MERN",
+    company: "JSpiders Institute, Noida",
+    year: "March, 2024 - Present",
+    description:
+      "I have taken training from JSpiders Institute, Noida as a MERN Stack trainee. During this period, I studied and worked on building user interfaces and REST APIs using React, Next.js, Node.js, Express, and MongoDB. I also gained exposure to technologies such as AWS, Docker, Redis, and Kafka.",
+  },
+];
 
 const stats = [
   // { value: "20k", label: "Our Project Complete" },
@@ -82,11 +90,20 @@ const FE = [
 ];
 
 const education = [
-  { title: "MERN Stack Web Development,", address: 'jspider training institue', year: "2023", details: "Grade A" },
-  { title: "Bachelor of technology,", address: 'Lucknow', year: "2019-23", details: "CGPA 8.03" },
+  {
+    title: "MERN Stack Web Development,",
+    address: "jspider training institue",
+    year: "2023",
+    details: "Grade A",
+  },
+  {
+    title: "Bachelor of technology,",
+    address: "Lucknow",
+    year: "2019-23",
+    details: "CGPA 8.03",
+  },
   // { title: "12th, N. G. Moghe", address: '', year: "2016-17", details: "Percentage 56.92%" },
 ];
-
 
 export const Resume = () => {
   return (
@@ -94,10 +111,24 @@ export const Resume = () => {
       {/* About Me Section */}
       <div className="text-center md:text-left">
         <div className="flex items-center gap-5 md:gap-10">
-          <h2 className="text-[20px] md:text-[30px] font-bold text-black font-[Rajdhani]">Education</h2>
-          <svg className="w-20 h-5 text-gray-300" viewBox="0 0 120 10" xmlns="http://www.w3.org/2000/svg">
+          <h2 className="text-[20px] md:text-[30px] font-bold text-black font-[Rajdhani]">
+            Education
+          </h2>
+          <svg
+            className="w-20 h-5 text-gray-300"
+            viewBox="0 0 120 10"
+            xmlns="http://www.w3.org/2000/svg"
+          >
             <circle cx="5" cy="5" r="5" fill="currentColor" />
-            <line x1="5" y1="5" x2="115" y2="5" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
+            <line
+              x1="5"
+              y1="5"
+              x2="115"
+              y2="5"
+              stroke="currentColor"
+              strokeWidth="3"
+              strokeLinecap="round"
+            />
             <circle cx="115" cy="5" r="5" fill="currentColor" />
           </svg>
         </div>
@@ -121,9 +152,15 @@ export const Resume = () => {
             >
               <div className="text-[#ff014f] text-3xl text-left">
                 <h4 className="text-black text-[16px]">{edu.title}</h4>
-                <h4 className="text-black text-[16px] mt-[-10px]">{edu.address}</h4>
-                <h4 className="mt-[-5px] text-black text-[18px] font-bold font-[Rajdhani] ">{edu.year}</h4>
-                <p className="mt-3 leading-7 text-gray-600 text-left text-[16px]">{edu.details}</p>
+                <h4 className="text-black text-[16px] mt-[-10px]">
+                  {edu.address}
+                </h4>
+                <h4 className="mt-[-5px] text-black text-[18px] font-bold font-[Rajdhani] ">
+                  {edu.year}
+                </h4>
+                <p className="mt-3 leading-7 text-gray-600 text-left text-[16px]">
+                  {edu.details}
+                </p>
               </div>
             </div>
           ))}
@@ -151,65 +188,139 @@ export const Resume = () => {
       </div> */}
 
       <div className="container mx-auto py-8 my-5 text-left">
-        <h2 className="text-[25px] md:text-[35px] font-bold text-black font-[Rajdhani]">Skills</h2>
+        <h2 className="text-[25px] md:text-[35px] font-bold text-black font-[Rajdhani]">
+          Skills
+        </h2>
         <div className="grid grid-cols-1 gap-8 my-2">
           <div>
             <div className="flex items-center gap-5 md:gap-10">
-              <h2 className="text-[18px] md:text-[25px] font-bold text-black font-[Rajdhani]">Backend Technologies</h2>
-              <svg className="w-20 h-5 text-gray-300" viewBox="0 0 120 10" xmlns="http://www.w3.org/2000/svg">
+              <h2 className="text-[18px] md:text-[25px] font-bold text-black font-[Rajdhani]">
+                Backend Technologies
+              </h2>
+              <svg
+                className="w-20 h-5 text-gray-300"
+                viewBox="0 0 120 10"
+                xmlns="http://www.w3.org/2000/svg"
+              >
                 <circle cx="5" cy="5" r="5" fill="currentColor" />
-                <line x1="5" y1="5" x2="115" y2="5" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
+                <line
+                  x1="5"
+                  y1="5"
+                  x2="115"
+                  y2="5"
+                  stroke="currentColor"
+                  strokeWidth="3"
+                  strokeLinecap="round"
+                />
                 <circle cx="115" cy="5" r="5" fill="currentColor" />
               </svg>
             </div>
             <div className="grid grid-cols-2 gap-x-10">
               {BE.map((skill) => (
-                <SkillBar key={skill.name} name={skill.name} value={skill.value} />
+                <SkillBar
+                  key={skill.name}
+                  name={skill.name}
+                  value={skill.value}
+                />
               ))}
             </div>
           </div>
           <div>
             <div className="flex items-center gap-5 md:gap-10">
-              <h2 className="text-[18px] md:text-[25px] font-bold text-black font-[Rajdhani]">Scalablity & Robust</h2>
-              <svg className="w-20 h-5 text-gray-300" viewBox="0 0 120 10" xmlns="http://www.w3.org/2000/svg">
+              <h2 className="text-[18px] md:text-[25px] font-bold text-black font-[Rajdhani]">
+                Scalablity & Robust
+              </h2>
+              <svg
+                className="w-20 h-5 text-gray-300"
+                viewBox="0 0 120 10"
+                xmlns="http://www.w3.org/2000/svg"
+              >
                 <circle cx="5" cy="5" r="5" fill="currentColor" />
-                <line x1="5" y1="5" x2="115" y2="5" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
+                <line
+                  x1="5"
+                  y1="5"
+                  x2="115"
+                  y2="5"
+                  stroke="currentColor"
+                  strokeWidth="3"
+                  strokeLinecap="round"
+                />
                 <circle cx="115" cy="5" r="5" fill="currentColor" />
               </svg>
             </div>
             <div className="grid grid-cols-2 gap-x-10">
               {SR.map((skill) => (
-                <SkillBar key={skill.name} name={skill.name} value={skill.value} />
+                <SkillBar
+                  key={skill.name}
+                  name={skill.name}
+                  value={skill.value}
+                />
               ))}
             </div>
           </div>
           <div>
             <div className="flex items-center gap-5 md:gap-10">
-              <h2 className="text-[18px] md:text-[25px] font-bold text-black font-[Rajdhani]">Aws Cloud Services</h2>
-              <svg className="w-20 h-5 text-gray-300" viewBox="0 0 120 10" xmlns="http://www.w3.org/2000/svg">
+              <h2 className="text-[18px] md:text-[25px] font-bold text-black font-[Rajdhani]">
+                Aws Cloud Services
+              </h2>
+              <svg
+                className="w-20 h-5 text-gray-300"
+                viewBox="0 0 120 10"
+                xmlns="http://www.w3.org/2000/svg"
+              >
                 <circle cx="5" cy="5" r="5" fill="currentColor" />
-                <line x1="5" y1="5" x2="115" y2="5" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
+                <line
+                  x1="5"
+                  y1="5"
+                  x2="115"
+                  y2="5"
+                  stroke="currentColor"
+                  strokeWidth="3"
+                  strokeLinecap="round"
+                />
                 <circle cx="115" cy="5" r="5" fill="currentColor" />
               </svg>
             </div>
             <div className="grid grid-cols-2 gap-x-10">
               {AWS.map((skill) => (
-                <SkillBar key={skill.name} name={skill.name} value={skill.value} />
+                <SkillBar
+                  key={skill.name}
+                  name={skill.name}
+                  value={skill.value}
+                />
               ))}
             </div>
           </div>
           <div>
             <div className="flex items-center gap-5 md:gap-10">
-              <h2 className="text-[18px] md:text-[25px] font-bold text-black font-[Rajdhani]">Frontend Technologies</h2>
-              <svg className="w-20 h-5 text-gray-300" viewBox="0 0 120 10" xmlns="http://www.w3.org/2000/svg">
+              <h2 className="text-[18px] md:text-[25px] font-bold text-black font-[Rajdhani]">
+                Frontend Technologies
+              </h2>
+              <svg
+                className="w-20 h-5 text-gray-300"
+                viewBox="0 0 120 10"
+                xmlns="http://www.w3.org/2000/svg"
+              >
                 <circle cx="5" cy="5" r="5" fill="currentColor" />
-                <line x1="5" y1="5" x2="115" y2="5" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
+                <line
+                  x1="5"
+                  y1="5"
+                  x2="115"
+                  y2="5"
+                  stroke="currentColor"
+                  strokeWidth="3"
+                  strokeLinecap="round"
+                />
                 <circle cx="115" cy="5" r="5" fill="currentColor" />
               </svg>
             </div>
             <div className="grid grid-cols-2 gap-x-10">
               {FE.map((skill) => (
-                <SkillBar key={skill.name} name={skill.name} value={skill.value} />
+                <SkillBar
+                  key={skill.name}
+                  name={skill.name}
+                  value={skill.value}
+                />
               ))}
             </div>
           </div>
@@ -218,10 +329,24 @@ export const Resume = () => {
 
       {/* Experience Section */}
       <div className="flex items-center gap-5 md:gap-10 mb-5">
-        <h2 className="text-[20px] md:text-[30px] font-bold text-black font-[Rajdhani]">Experience</h2>
-        <svg className="w-20 h-5 text-gray-300" viewBox="0 0 120 10" xmlns="http://www.w3.org/2000/svg">
+        <h2 className="text-[20px] md:text-[30px] font-bold text-black font-[Rajdhani]">
+          Experience
+        </h2>
+        <svg
+          className="w-20 h-5 text-gray-300"
+          viewBox="0 0 120 10"
+          xmlns="http://www.w3.org/2000/svg"
+        >
           <circle cx="5" cy="5" r="5" fill="currentColor" />
-          <line x1="5" y1="5" x2="115" y2="5" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
+          <line
+            x1="5"
+            y1="5"
+            x2="115"
+            y2="5"
+            stroke="currentColor"
+            strokeWidth="3"
+            strokeLinecap="round"
+          />
           <circle cx="115" cy="5" r="5" fill="currentColor" />
         </svg>
       </div>
@@ -237,14 +362,19 @@ export const Resume = () => {
           >
             <div className="text-[#ff014f] text-3xl text-left">
               <h4 className="text-black text-[16px]">{exp.title}</h4>
-              <h4 className="text-black text-[16px] mt-[-10px]">{exp.company}</h4>
-              <h4 className="mt-[-5px] text-black text-[18px] font-bold font-[Rajdhani] ">{exp.year}</h4>
-              <p className="text-justify mt-3 leading-7 text-gray-600 text-left text-[16px]">{exp.description}</p>
+              <h4 className="text-black text-[16px] mt-[-10px]">
+                {exp.company}
+              </h4>
+              <h4 className="mt-[-5px] text-black text-[18px] font-bold font-[Rajdhani] ">
+                {exp.year}
+              </h4>
+              <p className="text-justify mt-3 leading-7 text-gray-600 text-left text-[16px]">
+                {exp.description}
+              </p>
             </div>
           </div>
         ))}
       </div>
-
     </section>
   );
 };
@@ -265,5 +395,3 @@ const SkillBar = ({ name, value }) => {
     </div>
   );
 };
-
-
