@@ -25,20 +25,20 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // ];
 
 const experiences = [
-  // {
-  //   title: "Full Stack Developer, MERN,",
-  //   company: "Aiidl technology",
-  //   year: 'march, 2024 - present',
-  //   description: "I have been serving this company as a remote full-stack developer for approximately 1 year and 3 months . I was responsible for building user interfaces and REST APIs using React, Next.js, Node.js, Express, and MongoDB. Additionally, I have been working with technologies such as AWS, Docker, Redis, and Kafka."
-  // }
-
   {
-    title: "Full Stack Developer, MERN",
-    company: "JSpiders Institute, Noida",
-    year: "March, 2024 - Present",
-    description:
-      "I have taken training from JSpiders Institute, Noida as a MERN Stack trainee. During this period, I studied and worked on building user interfaces and REST APIs using React, Next.js, Node.js, Express, and MongoDB. I also gained exposure to technologies such as AWS, Docker, Redis, and Kafka.",
+    title: "Full Stack Developer, MERN,",
+    company: "Protech planner",
+    year: 'july, 2024 - July 2024 – Nov 2025 (1 year 5 months)',
+    description: "I have been serving this company as a full-stack developer for approximately 1 year and 5 months . I was responsible for building user interfaces and REST APIs using React, Next.js, Node.js, Express, and MongoDB. Additionally, I have been working with technologies such as AWS, Docker, Redis, and Kafka."
   },
+
+  // {
+  //   title: "Full Stack Developer, MERN",
+  //   company: "JSpiders Institute, Noida",
+  //   year: "March, 2024 - Present",
+  //   description:
+  //     "I have taken training from JSpiders Institute, Noida as a MERN Stack trainee. During this period, I studied and worked on building user interfaces and REST APIs using React, Next.js, Node.js, Express, and MongoDB. I also gained exposure to technologies such as AWS, Docker, Redis, and Kafka.",
+  // },
 ];
 
 const stats = [
