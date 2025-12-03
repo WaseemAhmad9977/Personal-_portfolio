@@ -27,8 +27,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const experiences = [
   {
     title: "Full Stack Developer, MERN,",
-    company: "Protech planner",
-    year: 'july, 2024 - July 2024 – Nov 2025 (1 year 5 months)',
+    company: "techsunset",
+    year: 'july, 2024 - nov 2024 – Nov 2025 (1 year 5 months)',
     description: "I have been serving this company as a full-stack developer for approximately 1 year and 5 months . I was responsible for building user interfaces and REST APIs using React, Next.js, Node.js, Express, and MongoDB. Additionally, I have been working with technologies such as AWS, Docker, Redis, and Kafka."
   },
 

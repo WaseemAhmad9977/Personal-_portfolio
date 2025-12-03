@@ -16,7 +16,7 @@ export const ProfileCard = () => {
 
   const downloadFile = () => {
     const link = document.createElement('a');
-    link.href ='/files/waseem_protech.pdf';
+    link.href ='/files/waseemtech.pdf';
     link.download = 'waseemahmad.pdf';
     link.click();
   };
